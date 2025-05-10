@@ -1,12 +1,77 @@
-# React + Vite
+# 🛍️ E-commerce Product App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based product showcase application to practice components, props, and state. This project avoids external frameworks like Bootstrap to emphasize custom CSS styling.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Functional components with `useState` for managing product data.
+- Props used to pass data between components.
+- Custom styling for each product using unique CSS classes.
+- Clear, responsive layout using CSS Grid.
 
-## Expanding the ESLint configuration
+## 🧠 Learning Objectives
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Understand React component structure.
+- Practice using `useState` for state management.
+- Learn to pass and use props in child components.
+- Style components with custom CSS.
+
+## 📁 Project Structure
+
+ecom-product-app/
+├── src/
+│ ├── components/
+│ │ ├── ProductList.jsx
+│ │ └── ProductItem.jsx
+│ ├── App.jsx
+│ ├── App.css
+│ └── main.jsx
+├── index.html
+└── package.json
+
+sql
+Copy
+Edit
+
+## 📦 Setup Instructions
+
+1. **Create the React App using Vite**  
+   ```bash
+   npx create-vite ecom-product-app --template react
+   cd ecom-product-app
+   npm install
+Add the provided code to the src folder (e.g., App.jsx, components/ProductList.jsx, etc.).
+
+Run the app
+
+bash
+Copy
+Edit
+npm run dev
+Open http://localhost:5173 in your browser.
+
+## 🎨 Styling
+Each product has its own custom class for visual differentiation. Example:
+
+css
+Copy
+Edit
+.product-style-a .product-name {
+  color: #e63946;
+}
+
+## ✅ Checklist
+ Products displayed with name, price, and description.
+
+ State and props used correctly.
+
+ Custom CSS applied to differentiate product visuals.
+
+ (Optional) Add filtering or images.
+
+## 🧪 Bonus Ideas
+Add product categories and filtering.
+
+Include images for each product.
+
+Expand to include cart functionality (next step).
