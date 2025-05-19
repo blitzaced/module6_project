@@ -1,6 +1,6 @@
 # 🛍️ E-commerce Product App
 
-A simple React-based product showcase application to practice components, props, and state. This project avoids external frameworks like Bootstrap to emphasize custom CSS styling.
+A simple React-based product showcase application to practice components, props, and state. 
 
 ## 🚀 Features
 
